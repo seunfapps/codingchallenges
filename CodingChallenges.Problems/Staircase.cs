@@ -18,5 +18,12 @@ namespace CodingChallenges.Problems
                 Console.WriteLine(text.PadLeft(steps));
             }
         }
+        /*
+        steps = 4
+                   #
+                  ##
+                 ###
+                ####
+         */
     }
 }
