@@ -12,8 +12,11 @@ namespace CodingChallenges.App
             //Staircase staircase = new Staircase(4);
             //staircase.Build();
 
-            BirthdayCake cake = new BirthdayCake(new int[] { 4, 4, 1, 3 });
-            cake.GetTallestCandles();
+            //BirthdayCake cake = new BirthdayCake(new int[] { 4, 4, 1, 3 });
+            //cake.GetTallestCandles();
+
+            MilitaryTimeConversion timeConversion = new MilitaryTimeConversion("12:05:45AM");
+            timeConversion.Convert();
         }
     }
 }
